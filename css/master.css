@@ -1,3 +1,46 @@
-.test {
-    font-weight: bold;
+body {
+    font-size:100%;
+    font-family: Helvetica;
+    line-height: 1.25;
+}
+
+.header {
+    background: url('../img/heynemann.png') no-repeat center;
+    height: 120px;
+}
+
+.separator {
+    height: 10px;
+    border-bottom: solid 1px #b5b5b5;
+}
+
+.toolbar {
+    margin-top: 89px;
+}
+
+.welcome {
+    margin-top: 107px;
+}
+
+.feeds {
+    margin-top: 44px;
+}
+
+.feed {
+    height: 23px;
+    border-bottom: solid 1px #b5b5b5;
+}
+
+.title {
+    float: left;
+}
+
+.rss {
+    float: right;
+}
+
+.footer {
+    margin-top: 10px;
+    font-size: 0.725em;
+    line-height: 0.325em;
 }
