@@ -90,6 +90,10 @@ a {
     display: none;
 }
 
+#tweet_template {
+    display: none;
+}
+
 .tweet {
     margin-top: 10px;
     padding-bottom: 30px;
