@@ -1,6 +1,9 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <title>Heynemann</title>
         <link rel="stylesheet" href="css/grid.css" type="text/css" />
         <link rel="stylesheet" href="css/master.css" type="text/css" />
@@ -13,36 +16,43 @@
             </div>
             <div class="clear"></div>
             <div class="grid_4 projects toolbar">
-                <a href="#projects.html" title="my projects"><img alt="my projects" src="img/projects.jpg" border="0" /></a>
+                <a href="#projects.html" title="my projects"><img alt="my projects" src="img/projects.jpg" /></a>
             </div>
             <div class="grid_4 blog toolbar">
-                <a href="http://blog.heynemann.com.br" title="my blog"><img alt="my projects" src="img/blog.jpg" border="0" /></a>
+                <a href="http://blog.heynemann.com.br" title="my blog"><img alt="my projects" src="img/blog.jpg" /></a>
             </div>
             <div class="grid_4 about toolbar">
-                <a href="#about.html" title="about me"><img alt="about me" src="img/about.jpg" border="0" /></a>
+                <a href="#about.html" title="about me"><img alt="about me" src="img/about.jpg" /></a>
             </div>
             <div class="clear"></div>
             <div class="grid_12 welcome">
-                <img src="img/welcome.png" />
+                <img src="img/welcome.png" alt="Welcome to Bernardo Heynemann's Website" />
             </div>
 
             <div class="clear"></div>
             <div class="grid_4 feeds projects-feed">
                 <div class="feed">
                     <div class="title">Projects Feed</div>
-                    <div class="rss"><img src="img/rss.gif" /></div>
+                    <div class="rss"><a href="http://github.com/heynemann.atom" title="Projects' RSS feed"><img src="img/rss.gif" alt="Projects' RSS feed" /></a></div>
                 </div>
                 <div class="content">
-                    <p>Currently working on this.</p>
                 </div>
             </div>
-            <div class="grid_8 feeds blog-feed">
+            <div class="grid_4 feeds blog-feed">
                 <div class="feed">
                     <div class="title">Blog Feed</div>
-                    <div class="rss"><img src="img/rss.gif" /></div>
+                    <div class="rss"><a href="http://blog.heynemann.com.br/feed/" title="Blog's RSS feed"><img src="img/rss.gif" alt="Blog's RSS feed" /></a></div>
                 </div>
                 <div class="content">
-                    <p>Currently working on this.</p>
+                </div>
+            </div>
+
+            <div class="grid_4 feeds twitter-feed">
+                <div class="feed">
+                    <div class="title">Twitter Feed</div>
+                    <div class="rss"><a href="http://www.twitter.com/heynemann" title="Twitter feed"><img src="img/twitter.png" alt="Twitter feed" /></a></div>
+                </div>
+                <div class="content">
                 </div>
             </div>
 
@@ -52,5 +62,35 @@
                 <p>All the content is original by Bernardo Heynemann or used under permission from the righful owner, even when it comes from other websites.</p>
             </div>
         </div>
+
+        <div class="entry" id="entry_template">
+            <div class="entry-title">
+                <a href="/"></a>
+            </div>
+            <div class="entry-date">
+                <abbr class="timeago"></abbr>
+            </div>
+            <div class="entry-body"></div>
+        </div>
+
+        <div class="tweet" id="tweet_template">
+            <div class="tweet-body">
+            </div>
+            <div class="tweet-info">
+                <div class="tweet-date">
+                    <abbr class="timeago"></abbr>
+                </div>
+                <div class="tweet-retweet">
+                </div>
+                <div class="tweet-to">
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jgfeed.js"></script>
+        <script type="text/javascript" src="js/jquery.timeago.js"></script>
+        <script type="text/javascript" src="js/jtwitter.js"></script>
+        <script type="text/javascript" src="js/loadmyfeeds.js"></script>
     </body>
 </hmtl>

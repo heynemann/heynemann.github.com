@@ -1,7 +1,14 @@
 body {
-    font-size:100%;
+    color: #0d0c0f;
+    font-family: arial;
+    font-size: 16px;
     font-family: Helvetica;
     line-height: 1.25;
+    background-color: #f4ede3;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -11,11 +18,15 @@ body {
 
 .separator {
     height: 10px;
-    border-bottom: solid 1px #b5b5b5;
+    border-bottom: solid 1px #798791;
 }
 
 .toolbar {
     margin-top: 89px;
+}
+
+.toolbar a img {
+    border-width: 0px;
 }
 
 .welcome {
@@ -26,9 +37,13 @@ body {
     margin-top: 44px;
 }
 
+.rss a img {
+    border-width: 0px;
+}
+
 .feed {
     height: 23px;
-    border-bottom: solid 1px #b5b5b5;
+    border-bottom: solid 1px #798791;
 }
 
 .title {
@@ -43,4 +58,78 @@ body {
     margin-top: 10px;
     font-size: 0.725em;
     line-height: 0.325em;
+}
+
+.entry {
+    position: relative;
+    margin-top: 10px;
+}
+
+.entry-date {
+    background: url('../img/clock.png') no-repeat 0 0;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-top: 2px;
+    font-size: .675em;
+}
+
+.entry-title a {
+    font-weight: bold;
+    font-size: .875em;
+    color: #7d1836;
+}
+
+.entry-body {
+    border-left: solid 1px #798791;
+    margin-top: 8px;
+    font-size: .775em;
+    padding-left: 17px;
+}
+
+#entry_template {
+    display: none;
+}
+
+.tweet {
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #aec2d6;
+}
+
+.tweet-body {
+    color: #0d0c0f;
+    font-size: .875em;
+}
+
+.tweet-info {
+    margin-top: 15px;
+}
+
+.tweet-date {
+    background: url('../img/clock.png') no-repeat 0 0;
+    padding-left: 20px;
+    padding-top: 2px;
+    float: left;
+    font-size: .675em;
+}
+
+.tweet-retweet {
+    background: url('../img/retweets.png') no-repeat 0 0;
+    margin-left: 5px;
+    padding-left: 17px;
+    padding-top: 2px;
+    float: left;
+    font-size: .675em;
+}
+
+.tweet-to {
+    float:right;
+    margin-left: 5px;
+    padding-left: 17px;
+    padding-top: 2px;
+    font-size: .675em;
+}
+
+.tweet-user {
+    color: #7d1836;
 }
