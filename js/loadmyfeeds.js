@@ -102,7 +102,6 @@ $(function() {
                     container.append(template);
                     $('abbr.timeago').timeago();
                 });
-                $(feed.template).remove();
             },
         feed.maxEntries);
     }
