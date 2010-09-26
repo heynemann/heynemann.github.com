@@ -39,7 +39,6 @@ $(function() {
         $.jTwitter(feed.url, feed.maxEntries, function(data){
             $.each(data, function(){
                 var entry = this;
-                console.info(entry);
 
                 var body = entry.text;
                 var date = dateFor(entry.created_at);
@@ -84,8 +83,6 @@ $(function() {
 
                 $.each(feeds.entries, function() {
                     var entry = this;
-
-                    //console.debug(entry);
 
                     var template = $(feed.template).clone();
                     template.attr('id', '');
