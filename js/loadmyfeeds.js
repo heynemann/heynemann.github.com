@@ -70,6 +70,7 @@ $(function() {
                 container.append(template);
                 $('abbr.timeago').timeago();
             });
+            $(feed.template).remove();
         });
     }
 
@@ -100,7 +101,8 @@ $(function() {
 
                     container.append(template);
                     $('abbr.timeago').timeago();
-             });
+                });
+                $(feed.template).remove();
             },
         feed.maxEntries);
     }
